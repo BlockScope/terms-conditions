@@ -35,9 +35,10 @@ Why Subfiles?
 -------------
 
 Why did I break the document down into subfiles, each with a ``-nz.tex``
-filename suffix? This helps me review other agreements after breaking
-those documents into subfiles using the same section names as used here
-but with an alternative suffix, such as ``-us.tex``.
+filename suffix? This helps me review other agreements after breaking those
+documents into subfiles using the same section names as used here but with an
+alternative suffix. For example, here I compare ``indemnity-nz.tex`` with
+``indemnity-us.tex`` [#]_.
 
 .. code:: diff
 
@@ -49,5 +50,9 @@ but with an alternative suffix, such as ``-us.tex``.
     + judgments, including reasonable attorneys’ fees and costs, arising out of or
     + relating to any breach by the Consultant of this Agreement.
 
+.. [#] Sample US idemnity copy is from the blog series, Contracts Series: `Indemnity Clauses`_ by SEGEV LLP.
+
 .. |CC BY 4.0| image:: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
    :target: http://creativecommons.org/licenses/by/4.0/
+
+.. _Indemnity Clauses: https://segev.ca/contracts-basics-part-2-indemnity-clauses/
