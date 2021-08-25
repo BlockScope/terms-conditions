@@ -1,15 +1,14 @@
-# terms-conditions
-These terms and conditions are a draft.
+# Terms and Conditions
 
-I copied the [original text](https://davelane.nz/terms-and-conditions) and
-converted this online to markdown using [puppy
-paste](https://puppypaste.com/).
+Here you'll find terms and conditions, copied the [original
+text](https://davelane.nz/terms-and-conditions) and converted this online to
+markdown using [puppy paste](https://puppypaste.com/) that I then converted by
+hand to LaTeX.
 
-
-## Viewing and Editing
+## Viewing, Editing and Typesetting
 
 I recommend VsCode and its LaTeX Workshop plugin or LaTeX tools such as
-TeXworks.
+TeXworks to view, edit and typeset the document to PDF.
 
 ## Reusing these Terms for your FOSS business
 
@@ -30,3 +29,20 @@ TeXworks.
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+## Why Subfiles?
+
+Why did I break the document down into subfiles, each with a `-nz.tex` filename
+suffix? This helps me review other agreements after breaking those documents
+into subfiles using the same section names as used here but with an alternative
+suffix, such as `-us.tex`.
+
+```diff
+- The Purchaser indemnifies the Supplier against any liability for any direct,
+- indirect or consequential injury, loss or damage arising out of any act, default
+- or omission of, or any representation made by the Purchaser or its agents.
++ The Consultant agrees to indemnify clauses and hold harmless the Company of and
++ from any and all claims, demand, losses, causes of action, damage, lawsuits,
++ judgments, including reasonable attorneys’ fees and costs, arising out of or
++ relating to any breach by the Consultant of this Agreement.
+```
