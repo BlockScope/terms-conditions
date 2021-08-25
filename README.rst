@@ -1,10 +1,11 @@
 Terms and Conditions
 ====================
 
-Here you’ll find terms and conditions, copied the `original
-text <https://davelane.nz/terms-and-conditions>`__ and converted this
-online to markdown using `puppy paste <https://puppypaste.com/>`__ that
-I then converted by hand to LaTeX.
+Here you’ll find terms and conditions.
+
+I copied the `original text <https://davelane.nz/terms-and-conditions>`__ and
+converted this online to markdown using `puppy paste
+<https://puppypaste.com/>`__ that I then converted by hand to LaTeX.
 
 Viewing, Editing and Typesetting
 --------------------------------
