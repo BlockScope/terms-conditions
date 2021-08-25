@@ -1,0 +1,41 @@
+\ProvidesPackage{terms-conditions}[Contract Agreement Terms and Conditions]
+
+\RequirePackage[left=20mm, right=20mm, top=20mm, bottom=20mm]{geometry}
+\RequirePackage{tabularx}
+
+% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+
+\pagestyle{empty} % options: empty , plain , fancy
+\renewcommand{\footrulewidth}{0.4pt}
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{}\rfoot{\thesubsection-\thepage}
+
+% Levels of numbering
+% SEE: https://tex.stackexchange.com/questions/70974/referencing-an-enumeration-item-with-redefined-labelenumi
+\renewcommand{\thesection}{\arabic{section}.}
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\theenumii}{\arabic{enumii}}
+\renewcommand{\theenumiii}{\arabic{enumiii}}
+\renewcommand{\theenumiv}{\arabic{enumiv}}
+
+\renewcommand{\labelenumi}{\thesection\arabic{enumi}.}
+\renewcommand{\labelenumii}{\thesection\theenumi.\arabic{enumii}.}
+\renewcommand{\labelenumiii}{\thesection\theenumi.\theenumii.\arabic{enumiii}}
+\renewcommand{\labelenumiv}{\thesection\theenumi.\theenumii.\theenumiii.\arabic{enumiv}}
+
+% SEE: https://www.sharelatex.com/learn/Paragraph_formatting#!#Paragraph_spacing
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+% SEE: http://stackoverflow.com/questions/3244803/latex-add-clickable-links-to-a-section-subsection-with-a-pdf-document
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true,    % Colours links instead of ugly boxes
+  urlcolor     = blue,    % Colour for external hyperlinks
+  linkcolor    = blue,    % Colour of internal links
+  citecolor    = red      % Colour of citations
+}
+
+% SEE: https://tex.stackexchange.com/questions/516390/how-to-make-a-whole-chapter-drafted-with-watermarks
+\RequirePackage{draftwatermark}
