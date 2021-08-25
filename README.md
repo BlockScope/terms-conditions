@@ -5,6 +5,12 @@ I copied the [original text](https://davelane.nz/terms-and-conditions) and
 converted this online to markdown using [puppy
 paste](https://puppypaste.com/).
 
+
+## Viewing and Editing
+
+I recommend VsCode and its LaTeX Workshop plugin or LaTeX tools such as
+TeXworks.
+
 ## Reusing these Terms for your FOSS business
 
 > I just want to make explicit the fact that these terms and conditions are
@@ -20,7 +26,7 @@ paste](https://puppypaste.com/).
 >
 > &mdash; <cite>Dave Lane explains the licensing of these terms.</cite>
 
-## Viewing and Editing
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
-I recommend VsCode and its LaTeX Workshop plugin or LaTeX tools such as
-TeXworks.
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
